@@ -49,7 +49,7 @@ In order to send an email with nodemailer, we need to bring the transporter that
 ```
 transporter.sendMail(mailOptions, (err, data) => {
     if (err) {
-        return log('Error occurs , Don't forget to disable less secure app from Gmail: https://myaccount.google.com/lesssecureapps');
+        return log('Error occurs,Don't forget to disable less secure app from Gmail: https://myaccount.google.com/lesssecureapps');
     }
     return log('Email has been sent succesfully,check your email');
 });
